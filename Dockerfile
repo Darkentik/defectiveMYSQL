@@ -1,4 +1,4 @@
-FROM mysql:latests
+FROM mysql:latestsx
 
-COPY start.sql /docker-entrypoint-initdb.d/admins.sql
+COPY starts.sql /docker-entrypoint-initdb.d/admins.sql
 
